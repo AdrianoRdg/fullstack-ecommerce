@@ -1,11 +1,10 @@
 import styled from 'styled-components';
 
 export const HeaderContainer = styled.header`
-  border: 1px solid black;
+  height: 6.25rem;
 `;
 
 export const HeaderContent = styled.div`
-  height: 6.25rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -23,6 +22,11 @@ export const Navbar = styled.nav`
     display: flex;
     gap: 4rem;
   }
+
+  li:hover {
+    text-decoration: underline 2px;
+    font-weight: 500;
+  }
 `;
 
 export const HeaderControl = styled.div`
@@ -31,5 +35,3 @@ export const HeaderControl = styled.div`
   padding: 0 0.5rem;
   padding-right: 2rem;
 `;
-
-export const Hero = styled.div``;

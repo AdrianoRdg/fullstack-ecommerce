@@ -8,7 +8,6 @@ import {
   HeaderContainer,
   HeaderContent,
   HeaderControl,
-  Hero,
   Navbar,
 } from './styles';
 
@@ -37,10 +36,6 @@ export function Header() {
           <img src={shoppingCart} alt="" />
         </HeaderControl>
       </HeaderContent>
-
-      <Hero className="container">
-        {/* <img src={heroBackground} alt="" /> */}
-      </Hero>
     </HeaderContainer>
   );
 }
