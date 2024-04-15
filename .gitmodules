@@ -1,0 +1,3 @@
+[submodule "ecommerce-backend"]
+	path = ecommerce-backend
+	url = git@github.com:AdrianoRdg/ecommerce-backend.git
