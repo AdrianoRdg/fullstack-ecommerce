@@ -1,7 +1,11 @@
+import GlobalStyles from './assets/styles/GlobalStyles';
+import { Home } from './view/pages/Home';
+
 function App() {
   return (
     <>
-      <h1>opa</h1>
+      <GlobalStyles />
+      <Home />
     </>
   );
 }
